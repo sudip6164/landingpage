@@ -1,5 +1,5 @@
 .container-fluid{
-    background-color: rgba(217, 217, 217, 1);
+    background-color: rgba(207, 255, 4, 1);
     padding-bottom: 20px;
     position: relative;
 }
@@ -12,7 +12,7 @@
 
 .login6{
     text-align: center;
-    background-color: rgba(217, 217, 217, 1);
+    background-color: rgba(207, 255, 4, 1);
     color: black;
     padding-bottom: 20px;
 }
@@ -22,8 +22,9 @@
 
 }
 .Footer{
+    width: 100%;
     text-align: center;
-    background-color: rgba(217, 217, 217, 1);
+    background-color: rgba(207, 255, 4, 1);
     color: black;
     font-size: 12px;
 }
