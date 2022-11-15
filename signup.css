@@ -1,0 +1,29 @@
+.container-fluid{
+    background-color: rgba(217, 217, 217, 1);
+    padding-bottom: 20px;
+    position: relative;
+}
+.container-fluid .row .col-lg{
+    margin-top: 30px;
+}
+.container-fluid .searchbar{
+    text-align: center;
+}
+
+.login6{
+    text-align: center;
+    background-color: rgba(217, 217, 217, 1);
+    color: black;
+    padding-bottom: 20px;
+}
+.login6 input{
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+.Footer{
+    text-align: center;
+    background-color: rgba(217, 217, 217, 1);
+    color: black;
+    font-size: 12px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            SP
+        </title>
+        <link rel="stylesheet" href="index.css">
+        <!--Referencing  with css-->
+        <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="assets/favicon_io/favicon.ico">
+    <script>
+    function validateForm() {
+        let x = document.forms["myForm"]["fullname"].value;
+        if (x == "") {
+          alert("Name must be filled out!!");
+          return false;
+        }
+        let y = document.forms["myForm"]["contact"].value;
+        if (y == "") {
+          alert("Contact number must be filled out!!");
+          return false;
+        }
+        let z = document.forms["myForm"]["email"].value;
+        if (z == "") {
+          alert("Email must be filled out!!");
+          return false;
+        }
+      }
+      </script>
+    </head>
+    <body id="demo">
+        <button type="button" onclick="document.getElementById('demo').style.backgroundColor='black'">Dark mode</button>
+        <button type="button" onclick="document.getElementById('demo').style.backgroundColor='white'">Light mode</button>
+        <button type="button" onclick="document.getElementById('date').innerHTML = Date()">Display Date and Time</button>
+        <div class="dateandtime" id="date"></div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg"><img src="assets\SUDIP_PRADHAN_C30105220013_logo-removebg-preview.png" alt="company logo" width="90" height="90" style="margin-left: 50px;"><br>
+                <p style="margin-left: 60px;">gaming store</p></div>
+                
+                <div class="col-lg"><a href="index.html">Home</a></div>
+                <div class="col-lg"><a href="working.html">Latest</a></div>
+                <div class="col-lg"><a href="working.html">Features</a></div>
+                <div class="col-lg"><a href="working.html">Contact Us</a></div>
+                <div class="col-lg"><a href="working.html">Feedback</a></div>
+                <div class="col-lg"><a href="signup.html">Login</a></div>
+            </div>
+            <div class="searchbar"><input type="text" placeholder="Search......."></div>
+        </div>
+
+
+        <div class="content">
+            <div class="subcontent">
+                <h1>Special offer</h1>
+                <p>Upto 30% discount after Rs.10,000 <br> purchase</p>
+                <div class="learnmore">
+                    <a href="working.html">Learn more</a>
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="Features">
+            <h1>Features</h1><br><br>
+            <div class="row">
+                <div class="col-lg" style="margin-left: 60px; text-align: center;">
+                    <img src="assets\fierce-exile-gaming-pc-desktop-computer.jpg" width="100" height="100" style="border-radius: 100px;"><br><br><br><a href="working.html">Gaming PCs</a></div>
+                <div class="col-lg" style="text-align:center;">
+                    <img src="assets\gaming-console.jpg" width="100" height="100" style="border-radius: 100px;"><br><br><br><a href="working.html">Gaming Consoles</a></div>
+                <div class="col-lg" style="margin-right: 60px; text-align:center;">
+                    <img src="assets\The_Games_Machine_CD-ROM_Battle_Realms_2001.jpg" width="100" height="100" style="border-radius: 100px;"><br><br><br><a href="working.html">Gaming CDs</a></div>
+            </div><br><br>
+            <div class="row">
+                <div class="col-lg" style="margin-left: 60px; text-align:center;">
+                    <img src="assets\HyperX_RAM.jpg" width="100" height="100" style="border-radius: 100px;"><br><br><br><a href="working.html">RAM and video cards</a></div>
+                <div class="col-lg" style="margin-right: 60px; text-align:center;">
+                    <img src="assets\scorpion-chair-futuristic-zero-gravity-reclining-workstation-gaming-chair-4.jpg" width="100" height="100" style="border-radius: 100px;"><br><br><br><a href="working.html">Gaming Accesories</a></div>
+            </div>
+
+        </div><br><br>
+        <div class="maincontactus"><h1>Contact Us</h1><br>
+            <form name="myForm" action="/a" onsubmit="return validateForm()" method="post">
+            <input id="name" type="text" onkeypress="return (event.charCode > 64 &amp;&amp; event.charCode < 91) || (event.charCode > 96 &amp;&amp; event.charCode < 123) || (event.charCode==32)" name="fullname" value="" placeholder="Enter your full name"><br><br>
+            <input type="number" id="contact" name="contact" placeholder="Enter your contact number"><br><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email address"><br> <br>
+            <input type="submit" value="Send" style="background-color: white; color: black; border-radius: 8pc;">
+            </form>
+        </div>
+        <br><br>
+    
+        <div class="Footer">
+            <img src="assets\SUDIP_PRADHAN_C30105220013_logo-removebg-preview.png" alt="company logo" width="50" height="50"><br>
+            SP gaming store<br>
+            Satdobato, Lalitpur<br>
+            ©2022 Copyright | All rights reserved<br>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
+

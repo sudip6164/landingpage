@@ -1,0 +1,68 @@
+.container-fluid{
+    background-color: rgba(217, 217, 217, 1);
+    padding-bottom: 20px;
+    position: relative;
+}
+.container-fluid .row .col-lg{
+    margin-top: 30px;
+}
+.container-fluid .searchbar{
+    text-align: center;
+}
+.content .subcontent{
+    margin-top: 30px;
+    margin-left: 60px;
+    text-align: center;
+    float: left;
+    position: absolute;
+
+}
+.content{
+    background-color: rgba(217, 217, 217, 1);
+}
+.content .subcontent h1{
+    font-size: 40px;
+}
+.content .subcontent p{
+    font-size: 30px;
+}
+.content .subcontent .learnmore a{
+    background-color: rgba(217, 217, 217, 1);
+    color: black;
+    padding: 10px;
+    font-size: 26px;
+    text-align: center;
+}
+.Features{
+    background-color: rgba(217, 217, 217, 1);
+    color: black;
+    padding-bottom: 80px;
+}
+.Features h1{
+    text-align: center;
+    margin-top: 350px;
+}
+.maincontactus{
+    text-align: center;
+    background-color: rgba(217, 217, 217, 1);
+    color: black;
+    padding-bottom: 20px;
+}
+.maincontactus p{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+.maincontactus input{
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+.Footer{
+    text-align: center;
+    background-color: rgba(217, 217, 217, 1);
+    color: black;
+    font-size: 12px;
+}
